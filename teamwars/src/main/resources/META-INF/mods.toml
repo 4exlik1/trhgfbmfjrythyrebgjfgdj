@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="teamwars"
+version="1.0.0"
+displayName="Team Wars"
+description='''
+Деление игроков на команды, счётчик убийств и зоны захвата.
+'''
+
+[[dependencies.teamwars]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.teamwars]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
